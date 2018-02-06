@@ -40,6 +40,9 @@ Are you at terminal warrior? JumpStart has you covered. Even if you are testing 
 
 Do you want to verify your tests work in the browser? That's also supported out of the box.  
 
+ESLint is configured as a Webpack loader ([eslint-loader](https://github.com/webpack-contrib/eslint-loader) accepts [ESLint CLIEngine](https://eslint.org/docs/developer-guide/nodejs-api#cliengine) options), so when Webpack runs, the source code is linted before Webpack will bundle it, forcing you to fix any issues, rather than ignoring them.
+
+
 The provided `npm` commands will watch your source and automatically reload your tests so feedback is __automatic__ and __fast__, just like it should be.
 
 ## Usage
@@ -64,7 +67,7 @@ The provided `npm` commands will watch your source and automatically reload your
 
 - `npm test`
 
-    - runs mocha tests, standardjs linting, and code coverage and outputs the results. 
+    - runs mocha tests, code coverage and outputs the results. 
     - Doesn't watch files or hot-reload.
 
 - `npm run build`

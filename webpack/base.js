@@ -7,6 +7,17 @@ module.exports = {
       {
         test: /\.js$/,
         exclude: /node_modules/,
+        enforce: "pre",
+        loader: "eslint-loader",
+        options: {
+          emitWarning: true,
+          failOnWarning: false,
+          failOnError: false,
+        },
+      },
+      {
+        test: /\.js$/,
+        exclude: /node_modules/,
         use: {
           loader: 'babel-loader',
           options: {
