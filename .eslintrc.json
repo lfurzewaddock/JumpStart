@@ -1,0 +1,12 @@
+{
+  "extends": "airbnb",
+  "env": {
+    "browser": true,
+    "node": true
+  },
+  "rules": {
+    "no-var": "off",
+    "quotes": ["error", "double"],
+    "prefer-arrow-callback": [ "error", { "allowNamedFunctions": true } ]
+  }
+}
