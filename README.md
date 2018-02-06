@@ -67,7 +67,7 @@ The provided `npm` commands will watch your source and automatically reload your
     - runs mocha tests, standardjs linting, and code coverage and outputs the results. 
     - Doesn't watch files or hot-reload.
 
-- `npm build`
+- `npm run build`
     
     - builds your app bundle for production with both ugilification and minification
 
