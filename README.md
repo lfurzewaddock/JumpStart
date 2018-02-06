@@ -5,12 +5,6 @@
     <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square"
       alt="PR's Welcome" />
   </a>
-
-  <!-- Standard -->
-  <a href="https://standardjs.com">
-    <img src="https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat-square"
-      alt="Standard" />
-  </a>
 </div>
 
 <h1 align="center">JumpStart</h1>
@@ -33,7 +27,7 @@
 - __testable:__ built for TDD with hot-reloading, code coverage, and testing with [Mocha](https://mochajs.org/), [Chai](http://chaijs.com/), [Sinon](http://sinonjs.org), and [Istanbul](https://github.com/gotwarlost/istanbul)
 - __isomorphic__: supports testing in both node and browsers with [jsdom](https://github.com/tmpvar/jsdom) for DOM emulation in tests
 - __compatible__: write cutting-edge javascript and [Babel](https://babeljs.io/) will compile it for browsers
-- __consistent__: uses [standardjs](https://standardjs.com/) to detect syntax or style errors in your code
+- __consistent__: ~~uses [standardjs](https://standardjs.com/) to detect syntax or style errors in your code~~
 - __extendable__: built on [webpack](https://webpack.js.org/) and ready to be tailored to your needs
 
 ## Philosophy
