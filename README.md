@@ -27,7 +27,7 @@
 - __testable:__ built for TDD with hot-reloading, code coverage, and testing with [Mocha](https://mochajs.org/), [Chai](http://chaijs.com/), [Sinon](http://sinonjs.org), and [Istanbul](https://github.com/gotwarlost/istanbul)
 - __isomorphic__: supports testing in both node and browsers with [jsdom](https://github.com/tmpvar/jsdom) for DOM emulation in tests
 - __compatible__: write cutting-edge javascript and [Babel](https://babeljs.io/) will compile it for browsers
-- __consistent__: ~~uses [standardjs](https://standardjs.com/) to detect syntax or style errors in your code~~
+- __consistent__: uses [ESLint](https://eslint.org/) to detect syntax or style errors in your code
 - __extendable__: built on [webpack](https://webpack.js.org/) and ready to be tailored to your needs
 
 ## Philosophy
@@ -80,7 +80,7 @@ The provided `npm` commands will watch your source and automatically reload your
 1. Clone the repository into your "new-module" directory
 
     ```bash
-    git clone https://github.com/ctaylo21/es6-module-boilerplate.git new-module && cd new-module
+    git clone https://github.com/lfurzewaddock/JumpStart.git new-module && cd new-module
     ```
 
 2. Remove the git repository, and then initialize a new one
@@ -107,4 +107,4 @@ The provided `npm` commands will watch your source and automatically reload your
 
 ## Support
 
-If you find any problems or bugs, please open a new [issue](https://github.com/ctaylo21/JumpStart/issues).
+If you find any problems or bugs, please open a new [issue](https://github.com/lfurzewaddock/JumpStart/issues).
