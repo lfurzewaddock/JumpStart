@@ -2,11 +2,13 @@
   "extends": "airbnb",
   "env": {
     "browser": true,
-    "node": true
+    "node": true,
+    "mocha": true
   },
   "rules": {
     "no-var": "off",
     "quotes": ["error", "double"],
-    "prefer-arrow-callback": [ "error", { "allowNamedFunctions": true } ]
+    "prefer-arrow-callback": [ "error", { "allowNamedFunctions": true } ],
+    "import/no-extraneous-dependencies": ["error", {"devDependencies": ["./test/**/*.js", "./webpack/**/*.js"]}]
   }
 }

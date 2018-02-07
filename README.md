@@ -68,7 +68,7 @@ The provided `npm` commands will watch your source and automatically reload your
 - `npm test`
 
     - runs mocha tests, code coverage and outputs the results. 
-    - Doesn't watch files or hot-reload.
+    - doesn't watch files or hot-reload.
 
 - `npm run build`
     
@@ -77,6 +77,14 @@ The provided `npm` commands will watch your source and automatically reload your
 - `npm start`
 
     - builds your app in development mode and automatically serves it using `webpack-dev-server` and the template in `src/templates/index.html`
+
+- `npm run lint`
+
+    - runs ESLint on all JavaScript files in `src`, `test`, `webpack` directories
+
+- `npm run lint:fix`
+
+    - runs ESLint on all JavaScript files in `src`, `test`, `webpack` directories and attempts to automatically fix any issues
 
 ## Installation
 
